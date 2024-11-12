@@ -84,7 +84,7 @@
             </trans-unit>
             <trans-unit id="21">
                 <source>This value is too short. It should have {{ limit }} character or more.|This value is too short. It should have {{ limit }} characters or more.</source>
-                <target>Deze waarde is te kort. Hij moet tenminste één teken bevatten.|Deze waarde is te kort. Hij moet tenminste {{ limit }} tekens bevatten.</target>
+                <target>Deze waarde is te kort. Hij moet ten minste één teken bevatten.|Deze waarde is te kort. Hij moet ten minste {{ limit }} tekens bevatten.</target>
             </trans-unit>
             <trans-unit id="22">
                 <source>This value should not be blank.</source>
@@ -256,7 +256,7 @@
             </trans-unit>
             <trans-unit id="67">
                 <source>This value should be greater than or equal to {{ compared_value }}.</source>
-                <target>Deze waarde moet groter dan of gelijk aan {{ compared_value }} zijn.</target>
+                <target>Deze waarde moet groter of gelijk aan {{ compared_value }} zijn.</target>
             </trans-unit>
             <trans-unit id="68">
                 <source>This value should be identical to {{ compared_value_type }} {{ compared_value }}.</source>
@@ -400,7 +400,7 @@
             </trans-unit>
             <trans-unit id="103">
                 <source>The value of the netmask should be between {{ min }} and {{ max }}.</source>
-                <target>De waarde van de netmask moet zich tussen {{ min }} en {{ max }} bevinden.</target>
+                <target>De waarde van de netmasker moet tussen {{ min }} en {{ max }} liggen.</target>
             </trans-unit>
             <trans-unit id="104">
                 <source>The filename is too long. It should have {{ filename_max_length }} character or less.|The filename is too long. It should have {{ filename_max_length }} characters or less.</source>
